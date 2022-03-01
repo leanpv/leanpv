@@ -1,6 +1,5 @@
 {
   "name": "rl-app",
-  "proxy": "https://api.tracker.gg/",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://leanpv.github.io",

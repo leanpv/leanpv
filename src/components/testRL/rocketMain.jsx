@@ -19,7 +19,7 @@ const RocketMain = () => {
   }, [epicId])
 
   const fetchJSON = async () => {
-    const response = await fetch(`/api/v2/rocket-league/standard/profile/epic/${epicId}`, {
+    const response = await fetch(`https://api.tracker.gg/api/v2/rocket-league/standard/profile/epic/${epicId}`, {
       headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
